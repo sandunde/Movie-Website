@@ -1,0 +1,176 @@
+.featured {
+    background-image: url("/Users/sandundesilva/Documents/Freelance/Movie-Website/client/src/assets/Rectangle.png");
+}
+
+.featured-container {
+    padding       : 10px 100px;
+    padding-bottom: 50px;
+
+}
+
+.text-col {
+    padding-top: 35px;
+        font-weight: bold;
+}
+
+.text-col h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.img-thumbail {
+    display       : flex;
+    flex-direction: row;
+    gap           : 20px;
+    padding-left  : 100px;
+}
+
+.img-thumbail img {
+    border-radius: 20px;
+}
+
+.movie-main-title {
+    display        : flex;
+    justify-content: center;
+}
+
+.movie-title {
+    display         : flex;
+    justify-content : center;
+    margin-top      : 10px;
+    background-color: rgb(207, 207, 207);
+    border-radius   : 20px;
+    width           : 150px;
+}
+
+.image-row {
+    display        : flex;
+    justify-content: center;
+    padding        : 100px;
+}
+
+.image-row .col {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.top-categories{
+    margin-top: 100px;
+}
+
+.top-container{
+    padding: 50px 100px;
+}
+
+.top-container h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.romance-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.action-col{
+    margin-top: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .featured-container {
+        padding: 10px 20px;
+    }
+
+    .text-col h3 {
+        font-size: 30px;
+    }
+
+    .img-thumbail {
+        padding-left: 20px;
+    }
+
+    .img-thumbail img {
+        height: 300px;
+    }
+
+    .image-row {
+        padding: 50px;
+    }
+
+    .image-row .col img {
+        height: 250px;
+    }
+
+    .top-container {
+        padding: 20px;
+    }
+
+    .top-container h3 {
+        font-size: 30px;
+    }
+
+    .romance-col {
+        padding-left: 20px;
+    }
+
+    .action-col {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-col {
+        text-align: center;
+    }
+
+    .text-col h3 {
+        font-size: 24px;
+    }
+
+    .img-thumbail {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .img-thumbail img {
+        height: auto;
+        width: 100%;
+    }
+
+    .movie-title {
+        width: 100px;
+    }
+
+    .image-row {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .image-row .col img {
+        height: auto;
+        width: 100%;
+    }
+
+    .top-container {
+        padding: 10px;
+    }
+
+    .top-container h3 {
+        font-size: 24px;
+    }
+
+    .romance-col {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .action-col {
+        margin-top: 10px;
+    }
+}

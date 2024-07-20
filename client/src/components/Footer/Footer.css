@@ -1,0 +1,85 @@
+.footer-section {
+    padding         : 250px 100px 50px ;
+    background-image: url('/Users/sandundesilva/Documents/Freelance/Movie-Website/client/src/assets/footer.png');
+}
+
+.footer-content {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    padding-bottom: 100px;
+}
+
+.footer-content h4{
+    font-weight: bold;
+}
+
+.dropdown-toggle {
+    background-color: transparent !important;
+    border: 1px solid blue;
+    box-shadow: none; 
+    color: blue;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black !important;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        padding: 100px 20px 50px;
+    }
+
+    .footer-col {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        padding-bottom: 50px;
+    }
+
+    .footer-content h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .footer-content Button {
+        margin-top: 20px;
+    }
+
+    .footer-col .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-col .col {
+        margin-bottom: 20px;
+    }
+
+    .footer-col .social {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo img {
+        margin: 0 10px;
+    }
+
+    .dropdown-toggle {
+        margin-top: 20px;
+    }
+}
